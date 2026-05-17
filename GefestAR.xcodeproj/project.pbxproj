@@ -6,14 +6,67 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE8556002F72F109001A25E9 /* AMOObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6488932F6EFEEF009283A0 /* AMOObject.swift */; };
+		EE8556012F72F174001A25E9 /* ObjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6488992F6EFF8E009283A0 /* ObjectDetailView.swift */; };
+		EE8556022F72F1D3001A25E9 /* ARViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6488962F6EFF8E009283A0 /* ARViewScreen.swift */; };
+		EE8556032F72F3D4001A25E9 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64889A2F6EFF8E009283A0 /* SubscriptionView.swift */; };
+		EE8556062F72FA3B001A25E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6488982F6EFF8E009283A0 /* LoginView.swift */; };
+		EE8B99C12FA88DB800B5A4A8 /* DistanceAndOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B99BA2FA88DB800B5A4A8 /* DistanceAndOffline.swift */; };
+		EE8B99C32FA88DB800B5A4A8 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B99BC2FA88DB800B5A4A8 /* QRScannerView.swift */; };
+		EE8B99C42FA88DB800B5A4A8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B99BD2FA88DB800B5A4A8 /* SettingsView.swift */; };
+		EE8B99C52FA88DB800B5A4A8 /* TripReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B99BF2FA88DB800B5A4A8 /* TripReportView.swift */; };
+		EE8B99C92FA8AE9100B5A4A8 /* FieldTripButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B99C82FA8AE9100B5A4A8 /* FieldTripButton.swift */; };
+		EEA60A4B2FA922B100AB9611 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA60A4A2FA922B100AB9611 /* HistoryView.swift */; };
+		EEA60A4C2FA922B100AB9611 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA60A492FA922B100AB9611 /* HistoryManager.swift */; };
+		EEB64AE32F71A7F1008856DC /* GefestARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6488922F6EFEC6009283A0 /* GefestARApp.swift */; };
+		EEC27E662FA8D7FA00B8B6CB /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC27E652FA8D7FA00B8B6CB /* ReportView.swift */; };
+		EEC27E672FA8D7FA00B8B6CB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC27E642FA8D7FA00B8B6CB /* MainTabView.swift */; };
+		EEC27E692FA8DB5700B8B6CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC27E682FA8DB5700B8B6CB /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EE6488802F6EFC0C009283A0 /* GefestAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GefestAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6488922F6EFEC6009283A0 /* GefestARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GefestARApp.swift; sourceTree = "<group>"; };
+		EE6488932F6EFEEF009283A0 /* AMOObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMOObject.swift; sourceTree = "<group>"; };
+		EE6488962F6EFF8E009283A0 /* ARViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewScreen.swift; sourceTree = "<group>"; };
+		EE6488982F6EFF8E009283A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EE6488992F6EFF8E009283A0 /* ObjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailView.swift; sourceTree = "<group>"; };
+		EE64889A2F6EFF8E009283A0 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		EE8B99BA2FA88DB800B5A4A8 /* DistanceAndOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceAndOffline.swift; sourceTree = "<group>"; };
+		EE8B99BC2FA88DB800B5A4A8 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		EE8B99BD2FA88DB800B5A4A8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE8B99BF2FA88DB800B5A4A8 /* TripReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripReportView.swift; sourceTree = "<group>"; };
+		EE8B99C82FA8AE9100B5A4A8 /* FieldTripButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTripButton.swift; sourceTree = "<group>"; };
+		EEA60A492FA922B100AB9611 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		EEA60A4A2FA922B100AB9611 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		EEC27E642FA8D7FA00B8B6CB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		EEC27E652FA8D7FA00B8B6CB /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		EEC27E682FA8DB5700B8B6CB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE8B99C72FA8AA3700B5A4A8 /* Exceptions for "GefestAR" folder in "GefestAR" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EE64887F2F6EFC0C009283A0 /* GefestAR */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EE6488822F6EFC0C009283A0 /* GefestAR */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE8B99C72FA8AA3700B5A4A8 /* Exceptions for "GefestAR" folder in "GefestAR" target */,
+			);
 			path = GefestAR;
+			sourceTree = "<group>";
+		};
+		EE64888F2F6EFE41009283A0 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +85,10 @@
 		EE6488772F6EFC0C009283A0 = {
 			isa = PBXGroup;
 			children = (
+				EE6488912F6EFE61009283A0 /* App */,
+				EE6488902F6EFE54009283A0 /* Views */,
+				EE64888F2F6EFE41009283A0 /* Services */,
+				EE64888E2F6EFE24009283A0 /* Models */,
 				EE6488822F6EFC0C009283A0 /* GefestAR */,
 				EE6488812F6EFC0C009283A0 /* Products */,
 			);
@@ -43,6 +100,43 @@
 				EE6488802F6EFC0C009283A0 /* GefestAR.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EE64888E2F6EFE24009283A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE6488932F6EFEEF009283A0 /* AMOObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE6488902F6EFE54009283A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B99BA2FA88DB800B5A4A8 /* DistanceAndOffline.swift */,
+				EEC27E642FA8D7FA00B8B6CB /* MainTabView.swift */,
+				EEC27E682FA8DB5700B8B6CB /* HomeView.swift */,
+				EEA60A492FA922B100AB9611 /* HistoryManager.swift */,
+				EEA60A4A2FA922B100AB9611 /* HistoryView.swift */,
+				EEC27E652FA8D7FA00B8B6CB /* ReportView.swift */,
+				EE8B99C82FA8AE9100B5A4A8 /* FieldTripButton.swift */,
+				EE8B99BC2FA88DB800B5A4A8 /* QRScannerView.swift */,
+				EE8B99BD2FA88DB800B5A4A8 /* SettingsView.swift */,
+				EE8B99BF2FA88DB800B5A4A8 /* TripReportView.swift */,
+				EE6488962F6EFF8E009283A0 /* ARViewScreen.swift */,
+				EE64889A2F6EFF8E009283A0 /* SubscriptionView.swift */,
+				EE6488982F6EFF8E009283A0 /* LoginView.swift */,
+				EE6488992F6EFF8E009283A0 /* ObjectDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE6488912F6EFE61009283A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE6488922F6EFEC6009283A0 /* GefestARApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +156,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				EE6488822F6EFC0C009283A0 /* GefestAR */,
+				EE64888F2F6EFE41009283A0 /* Services */,
 			);
 			name = GefestAR;
 			packageProductDependencies = (
@@ -119,6 +214,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB64AE32F71A7F1008856DC /* GefestARApp.swift in Sources */,
+				EE8B99C92FA8AE9100B5A4A8 /* FieldTripButton.swift in Sources */,
+				EE8556032F72F3D4001A25E9 /* SubscriptionView.swift in Sources */,
+				EE8556002F72F109001A25E9 /* AMOObject.swift in Sources */,
+				EE8556062F72FA3B001A25E9 /* LoginView.swift in Sources */,
+				EE8556022F72F1D3001A25E9 /* ARViewScreen.swift in Sources */,
+				EE8556012F72F174001A25E9 /* ObjectDetailView.swift in Sources */,
+				EEC27E692FA8DB5700B8B6CB /* HomeView.swift in Sources */,
+				EEC27E662FA8D7FA00B8B6CB /* ReportView.swift in Sources */,
+				EEA60A4B2FA922B100AB9611 /* HistoryView.swift in Sources */,
+				EEA60A4C2FA922B100AB9611 /* HistoryManager.swift in Sources */,
+				EEC27E672FA8D7FA00B8B6CB /* MainTabView.swift in Sources */,
+				EE8B99C12FA88DB800B5A4A8 /* DistanceAndOffline.swift in Sources */,
+				EE8B99C32FA88DB800B5A4A8 /* QRScannerView.swift in Sources */,
+				EE8B99C42FA88DB800B5A4A8 /* SettingsView.swift in Sources */,
+				EE8B99C52FA88DB800B5A4A8 /* TripReportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +362,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99642L9N4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GefestAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Дать доступ к камере?";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для GPS-привязки в фоновом режиме";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для GPS-привязки места установки мачты";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Необходим доступ для сохранения фото";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,13 +400,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99642L9N4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GefestAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Дать доступ к камере?";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для GPS-привязки в фоновом режиме";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для GPS-привязки места установки мачты";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Необходим доступ для сохранения фото";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
